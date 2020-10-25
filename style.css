@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #544f53;
+  height: 657px;
+}
+
+.city {
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 33%;
+}
+
+.rel {
+  position: relative;
+}
+
+img {
+  z-index: -1;
+  width: 400px;
+  height: 400px;
+}
+
+.t-cap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #ab1f83;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
